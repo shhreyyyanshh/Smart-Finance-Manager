@@ -1,0 +1,11 @@
+target
+.git
+.idea
+.vscode
+out
+main
+model
+service
+*.class
+FinanceManagerClient.class
+data

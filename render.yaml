@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: finance-manager-backend
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    disk:
+      name: finance-data
+      mountPath: /app/data
+      sizeGB: 1
